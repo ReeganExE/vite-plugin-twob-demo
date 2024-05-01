@@ -6,8 +6,11 @@
 - Works with both SPA, SSG and SSR.
 - Works well with Remix and Astro.
 - Works well with mixed classes:
-  - `even:bg-slate-50 peer-[:nth-of-type(3)_&]:block odd:lg:bg-red-50 even:lg:bg-slate-300`
+  - `peer-checked:text-sky-500`
+  - `group-hover/edit:text-gray-700`
   - `hidden peer-[.is-dirty]:peer-required:block`
+  - `even:bg-slate-50 peer-[:nth-of-type(3)_&]:block odd:lg:bg-red-50 even:lg:bg-slate-300`
+- Works with [custom classes](https://tailwindcss.com/docs/adding-custom-styles#adding-component-classes): `btn-primary`, ...
 
 <sub><sup>_Note: This is just a document. I am using this plugin privately._</sup></sub>
 
